@@ -4,6 +4,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework import viewsets
 from rest_framework import permissions
 
+
 from api.models import User
 from api.serializers import GroupSerializer, TokenSerializer, UserSerializer
 
