@@ -5,7 +5,6 @@ from dataclasses import dataclass, field
 
 from __shared.domain.entities import Entity
 
-
 @dataclass(kw_only=True, frozen=True, slots=True)
 class User(Entity):
 
